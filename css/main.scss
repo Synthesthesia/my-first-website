@@ -2,11 +2,18 @@
   background-color: #3A171D;
   padding: 10px;
   margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   float:none;
 }
 
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .logo {
-  margin-left: 40px;
+  margin-left: 60px;
   margin-bottom:5px;
   width:170px;
 }
@@ -20,9 +27,19 @@
   .header-list {
     list-style:none;
     margin-left:0;
+    li {
+      margin-left: -10px;
+    }
   }
   .header-imgs {
     width:100px;
+    margin-top: -20px;
+    margin-right: 10px;
+  }
+  .future {
+    width:60px;
+    margin-right: 200px;
+    margin-top: -24px;
   }
 
 }
@@ -55,9 +72,17 @@ li {
   letter-spacing:1px;
 }
 
+.main-content {
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 1348px;
+}
+
 body {
   background-color: white;
   margin:0;
+  padding:0;
 }
 
 a:link {
@@ -75,11 +100,25 @@ a:hover {
 }
 
 .in-depth {
-  margin:8%;
+  margin:80px;
   margin-left: 5%;
   margin-right: 5%;
   font-size:8pt;
   font-family: sans-serif;
+  width:950px;
+  clear:both;
+}
+
+.mini {
+    float:left;
+    width:30%;
+    margin-left: -5px;
+    margin-right: 36px;
+}
+
+.page-line-break {
+  width:100%;
+  margin-left: -5px;
 }
 
 .in-depth-img {
@@ -99,8 +138,72 @@ a:hover {
 }
 
 .latest {
-  margin-top:10%;
+  margin-top:5%;
   margin-left: 5%;
-  color: purple;
+  margin-right: 2%;
+  color: #B22460;
   font-family: sans-serif;
+  float:left;
+  width:650px;
+  clear: both;
+  .games {
+    margin-left: -10px;
+  }
+
+  .date {
+    font-size: 8pt;
+    margin-top:-15px;
+  }
+
+  .article-content {
+    font-size: 10pt;
+    font-weight: normal;
+  }
+
+  span {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: -4px;
+    margin-left: 250px;
+    font-size: 17pt;
+    color:black;
+  }
+
+  .latest-article {
+    clear: both;
+  }
+
+  .article-img {
+    margin-bottom: 30px;
+  }
+}
+
+.popular {
+  margin-top: 3.8%;
+  margin-right: 12.8%;
+  color: #B22460;
+  font-family: sans-serif;
+  width:425px;
+  float:right;
+  clear: right;
+
+  .date {
+    font-size:8pt;
+    margin-top:6px;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.pop-mini-img {
+  margin-right: 15px;
+  clear:both;
+}
+
+.small {
+  margin-top: 50px;
 }
